@@ -1,0 +1,13 @@
+//to find sum of digits of a given number
+
+
+start
+step 1: read any number say n
+step 2: while(n>0)
+        {
+          digit=n%10
+          n=n/10
+          s=s+digit
+        }
+step 3: display s
+stop

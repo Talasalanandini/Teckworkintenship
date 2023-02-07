@@ -1,0 +1,21 @@
+//algorithm to find average of 5 students by taking marks of three subjects 
+
+
+step 1: start
+step 2: count=1;
+step 3: repeat
+step 4: read m1,m2,m3
+step 5: sum=m1+m2+m3
+step 6: avg=sum/3;
+step 7: if(avg>70)
+        		display "distinction"
+        else
+        if(avg>60 and avg<70)
+         	display "First class"
+        else if(avg>50 and avg<60)
+        		display "Second Class"
+        else
+        		display "Fail"
+step 8: count=count+1;
+step 9: until (count<=5);
+step 10: stop 

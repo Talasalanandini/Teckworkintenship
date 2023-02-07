@@ -1,0 +1,10 @@
+//to find sum of two numbers , display sum if sum is greater than 1000
+
+
+step 1: start
+step 2: read n1,n2
+step 3: sum=n1+n2;
+step 4: if(sum>1000)
+        		display sum
+step 5: display "sum value  not greater than 1000"
+step 6: stop 

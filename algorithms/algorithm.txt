@@ -1,0 +1,13 @@
+//algorithm to find x^2/1 +x^2/2+.......
+
+
+step 1: start
+step 2: p=0,s=0,n=1,read any value x
+step 3: while(x>0 && n>0)
+        {
+         	s=(x*x)/n);
+              n=n+1;
+              p=p+s;
+        }
+step 4: display p
+step 5: stop

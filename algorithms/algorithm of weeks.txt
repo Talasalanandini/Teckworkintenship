@@ -1,0 +1,21 @@
+//algorithm of weeks
+
+step 1: start
+step 2: read week
+step 3: if(week==1)
+         	display "sunday"
+        else if(week==2)
+        		display "monday"
+        else if(week==3)
+        		display "tuesday"
+        else if(week==4)
+        		display "wednesday"
+        else if(week==5)
+         	display "thursday"
+        else if(week==6)
+         	display "friday"
+        else if(week==7)
+         	display "saturday"
+        else
+        		display "invalid"
+step 4: stop

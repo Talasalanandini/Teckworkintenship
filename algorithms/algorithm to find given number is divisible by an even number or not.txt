@@ -1,0 +1,11 @@
+//algorithm to find first natural numbers
+
+step 1: start
+step 2: s=0,i=1,read any number say n
+step 3: while(i<=n)
+        {
+           s=s+i;
+           i=i+1;
+        }
+step 4: display s;
+step 5: stop

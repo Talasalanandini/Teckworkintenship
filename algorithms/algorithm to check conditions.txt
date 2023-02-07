@@ -1,0 +1,11 @@
+//algorithm to check conditions
+
+step 1: start
+step 2: read a,b,c
+step 3: if(a>10)
+         	a=a+100;
+        else if(b==8)
+         	c=c*9;
+        else if(c>a)
+         	b=a+b
+step 4: stop

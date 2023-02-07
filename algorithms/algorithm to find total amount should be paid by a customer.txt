@@ -1,0 +1,13 @@
+//algorithm to find total amount should be paid by a customer
+
+
+step 1: start
+step 2: read prizes of p1,p2,p3 and p4
+step 3: total prize = p1+p2+p3+p4
+step 4: if(total prize<500)
+        		display total=total prize*10/100;
+        else if(total prize<1000)
+        		display total=total prize*20/100;
+        else
+            display total=total prize*30/100;
+step 5: stop
