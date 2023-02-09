@@ -1,0 +1,41 @@
+//library management systems
+
+
+start
+step 1: m=management,n=student
+step 2:  display "enter login credentials"
+step 3: if(login credentials==n)
+        {
+         	display "enter name"
+              display "enter reg no"
+              display "enter book name"
+              display "enter book author"
+              display "enter date"
+          if(student wants to return book)
+          {
+            display"check book expiry date"
+            if(book expiry date is due)
+            {
+                display "student should pay fine"
+            }
+          else
+            {
+                display "no due"
+            }
+           }
+         else
+           {
+              display "login credentials does not match to student"
+step 4: if(login credentials==m)
+        {
+            display"enter name"
+            display"enter e-mail"
+        }
+step 5: management query book to student
+step 6: barrow books to students
+step 7: else
+        {
+           display "login credentails does not match to management
+
+
+

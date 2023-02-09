@@ -1,0 +1,92 @@
+
+
+start
+step 1: open online webpage
+step 2: click on login
+step 3: after clicking login
+          if(you entered mail)
+                click on "login"
+          else(you entered mobile num)
+               display("entere otp")
+               display("verify otp")
+               click on "login" 
+step 4: after clicking login create account
+step 3: search for categories
+              *kurthis
+              *western wear
+              *men
+              *kids
+step 3: browse products
+step 4: if(product found)
+             "view products"
+        else
+            "go back"
+step 5: if(product u want to buy)
+             "view product cost prize and rating"
+           else
+              "go back"
+           if(you want to buy more products)
+               "go back to search products and browse products"
+        else
+           "view product to buy"
+step 6: if(you want to buy product)
+               "go to select size"
+             if(size is available)
+                    "go to next step"
+                    "add address "
+                    "after adding address"
+                     "select payment mode"
+                      if(payment mode is upi google pay/phone pay)
+                       		display("continue to pay")
+                      else if(debit/credit card)
+                               display("continue to pay")
+                      else if(payment mode is net banking")
+                             select"bank name"
+                             display "continue to pay"
+                      else  
+                          "pay cash on delivery"
+        else 
+            "come back"
+step 7: next "click on place order"
+step 8: "thank you" 
+step 8: your order has been placed
+
+
+//returns and exchanges...............
+
+
+start
+step 1: open online webpage
+step 2: open my orders
+step 3: after opening my orders u will see the page ordered products
+step 4: open the product
+step 5: cancel order
+           select the reason "to cancel order"
+step 6: after cancel the order
+step 7: you will get an message
+             "your order was cancelled"
+step 8: stop
+
+
+
+//account management
+
+
+start
+step 1: open account settings
+step 2: login and security
+step 3: if(user wants to change details)
+               change name,phone number,and pasword
+               if(user changed details are verified)
+                    display "account details or changed"
+               else
+                  "not verified"
+step 4:after changing login details
+step 5: for verifying we have to login again
+step 6: account details login are success
+stop     
+                          
+             
+               
+             
+        

@@ -1,0 +1,113 @@
+//RESTURANT MANAGEMENT
+ 
+
+start
+step 1: user login
+            display "Role"
+               1.manager
+               2.customer
+            display "Name"
+            display "password"
+step 2: click login
+step 3: if(role==1)
+            display "Menu"
+               1.add customers
+               2.view customers
+               3.add riders
+               4.view path
+               5.remove customers
+               6.add items
+               7.view orders
+               8.exit
+step 4: if(display menu==1)
+                 display"Enter name"
+                 display"Enter password"
+                 display"cnic"
+                 display"phone number"
+        else
+            "exit from menu"
+step 5: if(display menu==2)
+                 display "customer name"
+                 display "password"
+                 display "cnic"
+                 display "phone number"
+        else
+            "exit from menu"
+step 6: if(display menu==3)
+                display"enter name"
+                display"enter status"
+                if(click on add)
+                       display"added successfully"
+                       display"click on ok"
+                else
+                     click on "clear"
+        else
+             "click on exit menu"
+step 7: if(display menu==4)
+                display"view path"
+        else
+            click on "exit"
+step 8: if(display menu==5)
+                  display"view coustomers"
+                  if(you want to remove cosutomers)
+                           display"remove coustomers"
+                  else
+                      clear
+        else
+             exit from menu
+step 9: if(display menu==6)
+                 display"food categories"
+                      1.pakistani cusine
+                      2.fast food
+                      3.ice cream
+                      4.chinese
+                      5.beverages
+                display "add dishes"
+                display "dish name"
+                display "enter price"
+                display "enter quantity"
+                display "click on add"
+        else
+            exit from menu
+step 10: if(display menu==7)
+              display "click on view orders"
+                      you can view orders and deiver that orders
+         else
+             exit from menu
+step 11: if(display menu==8)
+               display"exit from the manager menu"
+step 12: if(role==2)
+               display "menu"
+                  1.order
+                  2.food categories
+                  3.delivery
+                  4.exit
+step 13: if(display menu==1)
+                     display"select food"
+                     display"your was ordered"
+         else
+             "exit from menu"
+step 14: if(display menu==2)
+                  display"food categories"
+                      1.pakistani cusine
+                      2.fast food
+                      3.ice cream
+                      4.chinese
+                      5.beverages
+          else
+              exit from menu
+step 15: if(display menu==3)
+                  display "select food categories"
+                  display"location"
+                  if(your order was in stock)
+                      display("your item will be delivered)
+                  else
+                    display("your item can not be delivered")
+         else
+             "exit from menu"
+step 16: if(display menu==4)
+                 display "exit from the meu"
+step 17: stop
+                  
+
+

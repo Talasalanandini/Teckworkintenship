@@ -1,0 +1,108 @@
+//ATM TRANSACTIONS
+
+
+start
+step 1: welcome
+step 2: coustomer inserts the card in atm
+step 3: read card from coustomer
+step 4: display "your card is reading ,please dont remove your card"
+step 5: if(card is acceptable)
+        {
+         	display "Card holder name"
+        }
+        else
+        {
+         	display "Your card is not valid"
+        }
+step 6: display "select language "
+              *telugu
+              *english
+              *hindi
+step 7: coustomer selects language
+step 8: system asks for the pin code
+step 9: coustomer enters the pin
+        {
+           if("Valid pin")
+            		display "menu"
+                      *deposit
+                      *withdraw
+                      *transfer
+                      *balance inquirly
+            else 
+            		display "retry"
+        }
+step 10: display "select transactions"
+step 11: selects withdraw from the menu
+step 12: system shows withdraw options
+                *$20
+                *$40
+                *$100
+                *custom amount
+                *cancel
+step 13: if(choose custom amount)
+         {
+            read "Enter an amount"
+            display "available balance"
+            if(amount>balance)
+            { 
+             		display "Perform transaction"
+                  display "dispense money"
+            }
+            else(amount<balance)
+            {
+                notify customer
+            }
+            if(want to print recipt)
+            {
+             		print "receipt"
+            }
+            else
+            {
+             		eject the card
+            }
+         else(choose cancel transaction)
+         {
+                display " eject the card"
+         }
+         }
+step 14: display "transaction from display menu"
+step 15: coustomer selects deposit from menu
+step 16: system asks to deposit check in deposit slot
+step 17: display "deposit the check"
+step 18: system scans the check
+step 19: system displays the deposited amount
+         {
+         	if(amount is correct)
+              { 
+               	display "select amount checking or saving"
+              }
+              else
+              {
+                	read "enters the correct amount"
+              }
+step 20: add to balance
+step 21: if(amount deposited successfully)
+         {
+          	display "success message"
+         }
+         else
+         {
+          	display "unsuccess message"
+         }
+step 22: if (want recipt)
+         {
+          	print "recipt"
+          }
+         else
+         {
+             print " eject the card"
+         }
+step 23: display "thank you for visiting and visit again"
+step 24: stop
+            
+       
+
+
+
+
+
