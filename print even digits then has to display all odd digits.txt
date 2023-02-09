@@ -1,0 +1,20 @@
+start
+step 1:read any number say n,i=0,s=0
+step 2:while(n>0)
+       {
+         if(i%2==0)
+         {
+          	i=n%10;
+            n=n/10;
+            s=s+i;
+         }
+         else
+         { 
+         	i=n%10;
+            n=n/10;
+            s1=s+i;
+         }
+       }
+step 3: display s
+step 4: display s1
+stop
